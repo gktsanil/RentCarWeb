@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="contact-page__map">
+                    <div data-latlong="21.036697, 105.834871"></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                <div class="contact-page__form">
+                    <div class="title">
+                        <span>We would like to know you</span>
+                        <h2>CONTACT US</h2>
+                    </div>
+                    <div class="descriptions">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tempor dolor, id cursus sem. Vestibulum placerat non nibh et sodales. </p>
+                    </div>
+                    <form class="contact-form" action="processContact.php" method="post">
+                        <div class="form-item">
+                            <input type="text" value="Your Name *" name="name">
+                        </div>
+                        <div class="form-item">
+                            <input type="email" value="Your Email *" name="email">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" value="Your Website" name="subject">
+                        </div>
+                        <div class="form-item form-captcha">
+                            <img src="images/img/captcha-demo.png" alt="" class="wpcf7-captchac">
+                            <span class="wpcf7-form-control-wrap">
+                                <input type="text" value="Captcha">
+                            </span>
+                        </div>
+                        <div class="form-textarea-wrapper">
+                            <textarea name="message">Company name</textarea>
+                        </div>
+                        <div class="form-actions">
+                            <input type="submit" value="Send" class="submit-contact">
+                        </div>
+                        <div id="contact-content"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -62,16 +62,18 @@
                     <!-- NAVIGATION -->
                     <nav class="navigation awe-navigation" data-responsive="1200">
                         <ul class="menu-list">
-                            <li class="menu-item-has-children current-menu-parent">
-                                <a href="index.html">Home</a>
-                                <ul class="sub-menu">
-                                    <li class="current-menu-item"><a href="index.html">Home 1</a></li>
-                                    <li><a href="index2.html">Home 2</a></li>
-                                    <li><a href="index3.html">Menu hamburger</a></li>
-                                    <li><a href="index-dark.html">Home 1 (Dark)</a></li>
-                                    <li><a href="index2-dark.html">Home 2 (Dark)</a></li>
-                                    <li><a href="index3-dark.html">Menu hamburger (Dark)</a></li>
-                                </ul>
+                            <!-- current-menu-parent seçili menu class-->
+                            <li class="menu-item-has-children">
+                                <!--<a href="index.html">Home</a>-->
+                                @Html.ActionLink("Anasayfa", "Index", "Home", new { area = "" })
+                                <!--<ul class="sub-menu">
+                <li class="current-menu-item"><a href="index.html">Home 1</a></li>
+                <li><a href="index2.html">Home 2</a></li>
+                <li><a href="index3.html">Menu hamburger</a></li>
+                <li><a href="index-dark.html">Home 1 (Dark)</a></li>
+                <li><a href="index2-dark.html">Home 2 (Dark)</a></li>
+                <li><a href="index3-dark.html">Menu hamburger (Dark)</a></li>
+            </ul>-->
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="destinations-list.html">Destinations</a>
@@ -184,11 +186,12 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="contact.html">Contact</a>
-                                <ul class="sub-menu">
-                                    <li><a href="contact.html">Light</a></li>
-                                    <li><a href="contact-dark.html">Dark</a></li>
-                                </ul>
+                                <!--<a href="contact.html">Contact</a>-->
+                                @Html.ActionLink("İletişim", "Contact", "Contact", new { area = "" })
+                                <!--<ul class="sub-menu">
+            <li><a href="contact.html">Light</a></li>
+            <li><a href="contact-dark.html">Dark</a></li>
+        </ul>-->
                             </li>
                         </ul>
                     </nav>
