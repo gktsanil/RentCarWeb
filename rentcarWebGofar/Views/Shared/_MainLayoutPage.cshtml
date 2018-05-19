@@ -153,48 +153,49 @@
     </ul>-->
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Pages</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item-has-children">
-                                        <a href="blog.html">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="blog-dark.html">Blog (Dark)</a></li>
-                                            <li><a href="single-post-dark.html">Single Post (Dark)</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="login.html">Log In</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="login.html">Log In</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="login.html">Log In (Dark)</a></li>
-                                            <li><a href="register.html">Register (Dark)</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="checkout-yourcart.html">Checkout</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="checkout-yourcart.html">Your cart</a></li>
-                                            <li><a href="checkout-customer.html">Customer</a></li>
-                                            <li><a href="checkout-complete.html">Complete</a></li>
-                                            <li><a href="checkout-yourcart-dark.html">Your cart (Dark)</a></li>
-                                            <li><a href="checkout-customer-dark.html">Customer (Dark)</a></li>
-                                            <li><a href="checkout-complete-dark.html">Complete (Dark)</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shortcode.html">Shortcode</a></li>
-
-                                </ul>
+                                <a href="@Url.Action("Index", "TravelBlog")">Blog</a>
+                                <!--<ul class="sub-menu">
+        <li class="menu-item-has-children">
+            <a href="blog.html">Blog</a>
+            <ul class="sub-menu">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="single-post.html">Single Post</a></li>
+                <li><a href="blog-dark.html">Blog (Dark)</a></li>
+                <li><a href="single-post-dark.html">Single Post (Dark)</a></li>
+            </ul>
+        </li>
+        <li class="menu-item-has-children">
+            <a href="login.html">Log In</a>
+            <ul class="sub-menu">
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Log In (Dark)</a></li>
+                <li><a href="register.html">Register (Dark)</a></li>
+            </ul>
+        </li>
+        <li class="menu-item-has-children">
+            <a href="checkout-yourcart.html">Checkout</a>
+            <ul class="sub-menu">
+                <li><a href="checkout-yourcart.html">Your cart</a></li>
+                <li><a href="checkout-customer.html">Customer</a></li>
+                <li><a href="checkout-complete.html">Complete</a></li>
+                <li><a href="checkout-yourcart-dark.html">Your cart (Dark)</a></li>
+                <li><a href="checkout-customer-dark.html">Customer (Dark)</a></li>
+                <li><a href="checkout-complete-dark.html">Complete (Dark)</a></li>
+            </ul>
+        </li>
+        <li><a href="shortcode.html">Shortcode</a></li>
+    </ul>-->
                             </li>
                             <li class="menu-item-has-children">
-                                <!--<a href="contact.html">Contact</a>-->
-                                @Html.ActionLink("İletişim", "Contact", "Contact")
+                                <a href="@Url.Action("Index", "Contact")">İletişim</a>
                                 <!--<ul class="sub-menu">
                                     <li><a href="contact.html">Light</a></li>
                                     <li><a href="contact-dark.html">Dark</a></li>
                                 </ul>-->
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="@Url.Action("Index", "Login")"> <i class="fa fa-user-o fa-fw"></i> </a>
                             </li>
                         </ul>
                     </nav>

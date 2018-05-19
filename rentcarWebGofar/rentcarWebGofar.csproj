@@ -112,6 +112,9 @@
     <Compile Include="Controllers\FlightController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HotelController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\TravelBlogController.cs" />
     <Compile Include="Controllers\TripsController.cs" />
     <Compile Include="Controllers\VipTransferController.cs" />
     <Compile Include="Global.asax.cs">
@@ -144,6 +147,10 @@
     <Content Include="Views\VipTransfer\TransferDetail.cshtml" />
     <Content Include="Views\CityTour\Index.cshtml" />
     <Content Include="Views\CityTour\CityTourDetail.cshtml" />
+    <Content Include="Views\travelBlog\Index.cshtml" />
+    <Content Include="Views\travelBlog\BlogDetail.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Register\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
