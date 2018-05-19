@@ -106,10 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CityTourController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\DestinationController.cs" />
+    <Compile Include="Controllers\FlightController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HotelController.cs" />
     <Compile Include="Controllers\TripsController.cs" />
+    <Compile Include="Controllers\VipTransferController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -132,6 +136,14 @@
     <Content Include="Views\Destination\GridIndex.cshtml" />
     <Content Include="Views\Trips\Index.cshtml" />
     <Content Include="Views\Trips\TripDetail.cshtml" />
+    <Content Include="Views\Hotel\Index.cshtml" />
+    <Content Include="Views\Hotel\HotelDetail.cshtml" />
+    <Content Include="Views\Flight\Index.cshtml" />
+    <Content Include="Views\Flight\FlightDetail.cshtml" />
+    <Content Include="Views\VipTransfer\Index.cshtml" />
+    <Content Include="Views\VipTransfer\TransferDetail.cshtml" />
+    <Content Include="Views\CityTour\Index.cshtml" />
+    <Content Include="Views\CityTour\CityTourDetail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
