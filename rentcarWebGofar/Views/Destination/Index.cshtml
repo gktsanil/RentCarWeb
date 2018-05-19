@@ -1,0 +1,734 @@
+﻿
+@{
+    ViewBag.Title = "Destination";
+    Layout = "~/Views/Shared/_MainLayoutPage.cshtml";
+}
+
+<!-- PAGE WRAP -->
+<div id="page-wrap">
+    <!-- PRELOADER -->
+    <div class="preloader"></div>
+    <!-- END / PRELOADER -->
+
+    <section class="travelling-block-section-demo awe-parallax">
+        <div class="container">
+            <div class="travelling-block text-center">
+                <div class="title">
+                    <h2>I am travelling for</h2>
+                </div>
+                <div class="travelling-tabs tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Purpose</a></li>
+                        <li><a href="#tabs-2">Region</a></li>
+                        <li><a href="#tabs-3">Price</a></li>
+                        <li><a href="#tabs-4">Time</a></li>
+                        <li><a href="#tabs-5">Advance Filter</a></li>
+                    </ul>
+                    <div class="travelling-tabs__content">
+                        <div id="tabs-1">
+                            <div class="purpose-slider">
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-food"></i>
+                                        <span>Foodie &amp; Culinary</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-bag"></i>
+                                        <span>Fashion &amp; Shopping</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-music"></i>
+                                        <span>Music &amp; Festival</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-culture"></i>
+                                        <span>History &amp; Culture</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-nature"></i>
+                                        <span>Sports &amp; Nature</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-entertain"></i>
+                                        <span>Entertain &amp; Gamble</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-briefcase-plus"></i>
+                                        <span>Health &amp; Beauty</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-food"></i>
+                                        <span>Foodie &amp; Culinary</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-bag"></i>
+                                        <span>Fashion &amp; Shopping</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="tabs-2">
+                            <div class="travelling-tabs__region">
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-north-america"></i>
+                                        <span>North America</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-south-america"></i>
+                                        <span>South America</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-europe"></i>
+                                        <span>Europe</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-australia"></i>
+                                        <span>Australia</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-asia"></i>
+                                        <span>Asia</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-antarctica"></i>
+                                        <span>Antarctica</span>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="awe-icon awe-icon-africa"></i>
+                                        <span>Africa</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="tabs-3">
+                            <div class="travelling-tabs__price">
+                                <div class="budget-level">
+                                    <label>Budget level</label>
+                                    <div class="price-slider-wrapper">
+                                        <div class="price-slider"></div>
+                                        <div class="price_slider_amount">
+                                            <div class="price_label">
+                                                <span class="from"></span> - <span class="to"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="currency">
+                                    <label>Currency</label>
+                                    <div class="select-item">
+                                        <select class="awe-select">
+                                            <option>$ - US Dollar </option>
+                                            <option>$ - US Dollar </option>
+                                        </select>
+                                    </div>
+                                    <span>Currency you want to use</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="tabs-4">
+                            <div class="travelling-tabs__time">
+                                <div class="season">
+                                    <div class="item spring">
+                                        <a href="#">
+                                            <i class="awe-icon awe-icon-spring"></i>
+                                            <span>Spring</span>
+                                        </a>
+                                    </div>
+                                    <div class="item summer">
+                                        <a href="#">
+                                            <i class="awe-icon awe-icon-summer"></i>
+                                            <span>Summer</span>
+                                        </a>
+                                    </div>
+                                    <div class="item autumn">
+                                        <a href="#">
+                                            <i class="awe-icon awe-icon-autumn"></i>
+                                            <span>Autumn</span>
+                                        </a>
+                                    </div>
+                                    <div class="item winter">
+                                        <a href="#">
+                                            <i class="awe-icon awe-icon-winter"></i>
+                                            <span>Winter</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="month">
+                                    <div class="item jan" data-season="spring">
+                                        <a href="#">Jan</a>
+                                    </div>
+                                    <div class="item feb" data-season="spring">
+                                        <a href="#">Feb</a>
+                                    </div>
+                                    <div class="item mar" data-season="spring">
+                                        <a href="#">Mar</a>
+                                    </div>
+                                    <div class="item apr" data-season="summer">
+                                        <a href="#">Apr</a>
+                                    </div>
+                                    <div class="item may" data-season="summer">
+                                        <a href="#">May</a>
+                                    </div>
+                                    <div class="item jun" data-season="summer">
+                                        <a href="#">Jun</a>
+                                    </div>
+                                    <div class="item jul" data-season="autumn">
+                                        <a href="#">Jul</a>
+                                    </div>
+                                    <div class="item aug" data-season="autumn">
+                                        <a href="#">Aug</a>
+                                    </div>
+                                    <div class="item sep" data-season="autumn">
+                                        <a href="#">Sep</a>
+                                    </div>
+                                    <div class="item oct" data-season="winter">
+                                        <a href="#">Oct</a>
+                                    </div>
+                                    <div class="item nov" data-season="winter">
+                                        <a href="#">Nov</a>
+                                    </div>
+                                    <div class="item dec" data-season="winter">
+                                        <a href="#">Dec</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="tabs-5">
+                            <div class="travelling-tabs__advance-filter">
+                                <div class="form-group">
+                                    <div class="form-elements from">
+                                        <label>From</label>
+                                        <div class="form-item">
+                                            <i class="awe-icon awe-icon-marker-1"></i>
+                                            <input type="text" value="Ho Chi Minh, Hanoi, Vietnam">
+                                        </div>
+                                    </div>
+                                    <div class="form-elements to">
+                                        <label>To</label>
+                                        <div class="form-item">
+                                            <i class="awe-icon awe-icon-marker-1"></i>
+                                            <input type="text" value="Ankara, Turkey">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-elements form-checkin">
+                                        <label>Depart on</label>
+                                        <div class="form-item">
+                                            <i class="awe-icon awe-icon-calendar"></i>
+                                            <input type="text" class="awe-calendar" value="Check in">
+                                        </div>
+                                    </div>
+                                    <div class="form-elements form-checkout">
+                                        <label>Return on</label>
+                                        <div class="form-item">
+                                            <i class="awe-icon awe-icon-calendar"></i>
+                                            <input type="text" class="awe-calendar" value="Check out">
+                                        </div>
+                                    </div>
+                                    <div class="form-elements form-references">
+                                        <label>References</label>
+                                        <div class="select-item">
+                                            <select class="awe-select">
+                                                <option>For business</option>
+                                                <option>For business</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-elements budget-level">
+                                        <label>Budget level</label>
+                                        <div class="price-slider-wrapper">
+                                            <div class="price-slider"></div>
+                                            <div class="price_slider_amount">
+                                                <div class="price_label">
+                                                    <span class="from"></span> - <span class="to"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-elements currency">
+                                        <label>Currency</label>
+                                        <div class="select-item">
+                                            <select class="awe-select">
+                                                <option>All types</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="your-destinations-section-demo">
+        <div class="container">
+            <div class="your-destinations">
+                <div class="your-destionations__top">
+                    <div class="title">
+                        <h2>Your Destinations</h2>
+                    </div>
+                    <div class="your-destinations__bar">
+                        <div class="view-switcher">
+                            <div class="view-item view-active">
+                                <a href="@Url.Action("Index", "Destination")">
+                                    <i class="awe-icon awe-icon-list"></i>
+                                </a>
+                            </div>
+                            <div class="view-item">
+                                <a href="@Url.Action("GridIndex", "Destination")">
+                                    <i class="awe-icon awe-icon-grid"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="order">
+                            <select class="orderby awe-select">
+                                <option>Best Match</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-list__content">
+                    <!-- ITEM -->
+                    <div class="destinations-item">
+                        <div class="item-media">
+                            <div class="image-cover">
+                                <img src="images/img/2.jpg" alt="">
+                            </div>
+                            <div class="item-cat">
+                                <ul>
+                                    <li><a href="#">Italy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-body">
+                            <div class="item-title">
+                                <h2>
+                                    <a href="#">Florence</a>
+                                </h2>
+                            </div>
+                            <div class="item-description">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                            </div>
+                            <div class="item-footer">
+                                <ul>
+                                    <li>
+                                        <h6>Flight</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-plane"></i>
+                                            <span class="count">089</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Train</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-train"></i>
+                                            <span class="count">589</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Hotel</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-hotel"></i>
+                                            <span class="count">8632</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Attraction</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-attraction"></i>
+                                            <span class="count">25</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-price-more">
+                            <div class="price">
+                                one night from
+                                <span class="amount">$200</span>
+                            </div>
+                            <a href="#" class="awe-btn">more</a>
+                        </div>
+                    </div>
+                    <!-- END / ITEM -->
+                    <!-- ITEM -->
+                    <div class="destinations-item">
+                        <div class="item-media">
+                            <div class="image-cover">
+                                <img src="images/img/3.jpg" alt="">
+                            </div>
+                            <div class="item-cat">
+                                <ul>
+                                    <li><a href="#">USA</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-body">
+                            <div class="item-title">
+                                <h2>
+                                    <a href="#">Ha Long bay</a>
+                                </h2>
+                            </div>
+                            <div class="item-description">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                            </div>
+                            <div class="item-footer">
+                                <ul>
+                                    <li>
+                                        <h6>Flight</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-plane"></i>
+                                            <span class="count">089</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Train</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-train"></i>
+                                            <span class="count">589</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Hotel</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-hotel"></i>
+                                            <span class="count">8632</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Attraction</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-attraction"></i>
+                                            <span class="count">25</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-price-more">
+                            <div class="price">
+                                one night from
+                                <span class="amount">$200</span>
+                            </div>
+                            <a href="#" class="awe-btn">more</a>
+                        </div>
+                    </div>
+                    <!-- END / ITEM -->
+                    <!-- ITEM -->
+                    <div class="destinations-item">
+                        <div class="item-media">
+                            <div class="image-cover">
+                                <img src="images/img/4.jpg" alt="">
+                            </div>
+                            <div class="item-cat">
+                                <ul>
+                                    <li><a href="#">India</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-body">
+                            <div class="item-title">
+                                <h2>
+                                    <a href="#">Konbasa</a>
+                                </h2>
+                            </div>
+                            <div class="item-description">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                            </div>
+                            <div class="item-footer">
+                                <ul>
+                                    <li>
+                                        <h6>Flight</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-plane"></i>
+                                            <span class="count">089</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Train</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-train"></i>
+                                            <span class="count">589</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Hotel</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-hotel"></i>
+                                            <span class="count">8632</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Attraction</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-attraction"></i>
+                                            <span class="count">25</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-price-more">
+                            <div class="price">
+                                one night from
+                                <span class="amount">$200</span>
+                            </div>
+                            <a href="#" class="awe-btn">more</a>
+                        </div>
+                    </div>
+                    <!-- END / ITEM -->
+                    <!-- ITEM -->
+                    <div class="destinations-item">
+                        <div class="item-media">
+                            <div class="image-cover">
+                                <img src="images/img/5.jpg" alt="">
+                            </div>
+                            <div class="item-cat">
+                                <ul>
+                                    <li><a href="#">Japan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-body">
+                            <div class="item-title">
+                                <h2>
+                                    <a href="#">Konbasa</a>
+                                </h2>
+                            </div>
+                            <div class="item-description">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                            </div>
+                            <div class="item-footer">
+                                <ul>
+                                    <li>
+                                        <h6>Flight</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-plane"></i>
+                                            <span class="count">089</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Train</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-train"></i>
+                                            <span class="count">589</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Hotel</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-hotel"></i>
+                                            <span class="count">8632</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Attraction</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-attraction"></i>
+                                            <span class="count">25</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-price-more">
+                            <div class="price">
+                                one night from
+                                <span class="amount">$200</span>
+                            </div>
+                            <a href="#" class="awe-btn">more</a>
+                        </div>
+                    </div>
+                    <!-- END / ITEM -->
+                    <!-- ITEM -->
+                    <div class="destinations-item">
+                        <div class="item-media">
+                            <div class="image-cover">
+                                <img src="images/img/6.jpg" alt="">
+                            </div>
+                            <div class="item-cat">
+                                <ul>
+                                    <li><a href="#">USA</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-body">
+                            <div class="item-title">
+                                <h2>
+                                    <a href="#">Konbasa</a>
+                                </h2>
+                            </div>
+                            <div class="item-description">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                            </div>
+                            <div class="item-footer">
+                                <ul>
+                                    <li>
+                                        <h6>Flight</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-plane"></i>
+                                            <span class="count">089</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Train</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-train"></i>
+                                            <span class="count">589</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Hotel</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-hotel"></i>
+                                            <span class="count">8632</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Attraction</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-attraction"></i>
+                                            <span class="count">25</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-price-more">
+                            <div class="price">
+                                one night from
+                                <span class="amount">$200</span>
+                            </div>
+                            <a href="#" class="awe-btn">more</a>
+                        </div>
+                    </div>
+                    <!-- END / ITEM -->
+                    <!-- ITEM -->
+                    <div class="destinations-item">
+                        <div class="item-media">
+                            <div class="image-cover">
+                                <img src="images/img/7.jpg" alt="">
+                            </div>
+                            <div class="item-cat">
+                                <ul>
+                                    <li><a href="#">Vietnam</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-body">
+                            <div class="item-title">
+                                <h2>
+                                    <a href="#">Konbasa</a>
+                                </h2>
+                            </div>
+                            <div class="item-description">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                            </div>
+                            <div class="item-footer">
+                                <ul>
+                                    <li>
+                                        <h6>Flight</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-plane"></i>
+                                            <span class="count">089</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Train</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-train"></i>
+                                            <span class="count">589</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Hotel</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-hotel"></i>
+                                            <span class="count">8632</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h6>Attraction</h6>
+                                        <p>
+                                            <i class="awe-icon awe-icon-attraction"></i>
+                                            <span class="count">25</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item-price-more">
+                            <div class="price">
+                                one night from
+                                <span class="amount">$200</span>
+                            </div>
+                            <a href="#" class="awe-btn">more</a>
+                        </div>
+                    </div>
+                    <!-- END / ITEM -->
+                </div>
+
+
+                <!-- PAGINATION -->
+                <div class="page__pagination text-center">
+                    <span class="pagination-prev"><i class="fa fa-caret-left"></i></span>
+                    <span class="current">1</span>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#" class="pagination-next"><i class="fa fa-caret-right"></i></a>
+                </div>
+                <!-- END / PAGINATION -->
+            </div>
+        </div>
+    </section>
+</div>
+<!-- END / PAGE WRAP -->
+<!-- LOAD JQUERY -->
+<script type="text/javascript" src="js/lib/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/lib/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/lib/jquery.owl.carousel.js"></script>
+<script type='text/javascript' src="js/lib/jquery-ui.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
