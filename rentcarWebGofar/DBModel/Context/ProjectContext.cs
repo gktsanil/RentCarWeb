@@ -19,5 +19,8 @@ namespace rentcarWebGofar.DBModel.Context
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Flight> Flights { get; set; }
         public DbSet<Company> Companies { get; set; }
+        public DbSet<Invoice> Invoices { get; set; }
+        public DbSet<CityTour> CityTours { get; set; }
+        public DbSet<RentCar> RentCars { get; set; }
     }
 }
