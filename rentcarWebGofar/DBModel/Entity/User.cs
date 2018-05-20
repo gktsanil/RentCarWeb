@@ -9,7 +9,7 @@ namespace rentcarWebGofar.DBModel.Entity
     public class User
     {
         [Key]
-        public string UserID { get; set; }
+        public int UserID { get; set; }
         public string UserFirstName { get; set; }
         public string UserSurName { get; set; }
         public string UserPassword { get; set; }
