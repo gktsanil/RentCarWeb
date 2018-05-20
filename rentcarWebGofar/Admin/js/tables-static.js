@@ -1,0 +1,1 @@
+/*! light-blue - v4.0.1 - 2018-03-20 */$(function(){function a(){$(".widget").widgster(),$(".sparkline").each(function(){$(this).sparkline("html",$(this).data())}),$(".js-progress-animate").animateProgressBar()}a(),PjaxApp.onPageLoad(a)});

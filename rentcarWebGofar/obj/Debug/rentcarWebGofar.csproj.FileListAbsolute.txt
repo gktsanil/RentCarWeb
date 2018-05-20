@@ -91,3 +91,8 @@ C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.
 C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.SqlServer.dll
 C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.xml
 C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\tr\System.Web.Mvc.resources.dll

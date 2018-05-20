@@ -1,0 +1,1 @@
+/*! light-blue - v4.0.1 - 2018-03-20 */$(function(){function a(){$(".sortable").sortable({placeholder:"list-group-item list-group-item-placeholder",forcePlaceholderSize:!0}),$("#nestable1").nestable({group:1}),$("#nestable2").nestable({group:1})}a(),PjaxApp.onPageLoad(a)});
