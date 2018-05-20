@@ -134,7 +134,7 @@
     <Compile Include="DBModel\Context\ProjectContext.cs" />
     <Compile Include="DBModel\Entity\City.cs" />
     <Compile Include="DBModel\Entity\Country.cs" />
-    <Compile Include="DBModel\Entity\Region.cs" />
+    <Compile Include="DBModel\Entity\Town.cs" />
     <Compile Include="DBModel\Entity\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

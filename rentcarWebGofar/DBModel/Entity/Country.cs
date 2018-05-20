@@ -12,5 +12,11 @@ namespace rentcarWebGofar.DBModel.Entity
         public int CountryID { get; set; }
         public string CountryName { get; set; }
 
+        public virtual List<City> Cities { get; set; }
+
+        public Country()
+        {
+            this.Cities = new List<City>();
+        }
     }
 }

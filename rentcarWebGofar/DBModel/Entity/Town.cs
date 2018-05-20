@@ -6,11 +6,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace rentcarWebGofar.DBModel.Entity
 {
-    public class Region
+    public class Town
     {
         [Key]
-        public int RegionID { get; set; }
+        public int TownID { get; set; }
         public int CityID { get; set; }
-        public string RegionName { get; set; }
+        public string TownName { get; set; }
+
+        public virtual City City { get; set; }
     }
 }
