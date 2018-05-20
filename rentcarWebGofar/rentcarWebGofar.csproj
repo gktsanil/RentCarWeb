@@ -134,6 +134,7 @@
     <Compile Include="Controllers\Panel\InvoiceController.cs" />
     <Compile Include="Controllers\Panel\ProfileController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\RentCarController.cs" />
     <Compile Include="Controllers\TravelBlogController.cs" />
     <Compile Include="Controllers\TripsController.cs" />
     <Compile Include="Controllers\VipTransferController.cs" />
@@ -196,6 +197,8 @@
     <Content Include="Views\Invoice\Outgoing.cshtml" />
     <Content Include="Views\Invoice\Canceled.cshtml" />
     <Content Include="Views\Invoice\ShowInvoice.cshtml" />
+    <Content Include="Views\RentCar\Index.cshtml" />
+    <Content Include="Views\RentCar\RentCarDetail.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
