@@ -13,5 +13,11 @@ namespace rentcarWebGofar.DBModel.Context
         public DbSet<Town> Towns { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<City> Cities { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<VipTransfer> VipTransfers { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Flight> Flights { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }
