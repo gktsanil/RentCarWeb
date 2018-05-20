@@ -129,6 +129,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HotelController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\Panel\CalendarController.cs" />
+    <Compile Include="Controllers\Panel\InboxController.cs" />
+    <Compile Include="Controllers\Panel\ProfileController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\TravelBlogController.cs" />
     <Compile Include="Controllers\TripsController.cs" />
@@ -185,6 +188,9 @@
     <Content Include="Views\Shared\_PanelLayoutPage.cshtml" />
     <Content Include="Views\Dashboard\Dashboard.cshtml" />
     <Content Include="Views\AdminLogin\Login.cshtml" />
+    <Content Include="Views\Profile\Index.cshtml" />
+    <Content Include="Views\Calendar\Index.cshtml" />
+    <Content Include="Views\Inbox\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
