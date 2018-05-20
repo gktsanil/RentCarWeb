@@ -87,3 +87,7 @@ C:\Users\Lenovo\Source\Repos\RentCarWeb\rentcarWebGofar\obj\Debug\rentcarWebGofa
 C:\Users\Lenovo\Source\Repos\RentCarWeb\rentcarWebGofar\obj\Debug\rentcarWebGofar.csproj.CopyComplete
 C:\Users\Lenovo\Source\Repos\RentCarWeb\rentcarWebGofar\obj\Debug\rentcarWebGofar.dll
 C:\Users\Lenovo\Source\Repos\RentCarWeb\rentcarWebGofar\obj\Debug\rentcarWebGofar.pdb
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.dll
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.xml
+C:\Users\Lenovo\Documents\GitHub\RentCarWeb\rentcarWebGofar\bin\EntityFramework.SqlServer.xml

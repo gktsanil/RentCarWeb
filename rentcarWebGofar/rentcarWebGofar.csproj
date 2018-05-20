@@ -131,9 +131,12 @@
     <Compile Include="Controllers\TravelBlogController.cs" />
     <Compile Include="Controllers\TripsController.cs" />
     <Compile Include="Controllers\VipTransferController.cs" />
+    <Compile Include="DBModel\Context\ProjectContext.cs" />
+    <Compile Include="DBModel\Entity\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
