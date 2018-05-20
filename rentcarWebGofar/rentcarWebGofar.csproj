@@ -131,6 +131,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\Panel\CalendarController.cs" />
     <Compile Include="Controllers\Panel\InboxController.cs" />
+    <Compile Include="Controllers\Panel\InvoiceController.cs" />
     <Compile Include="Controllers\Panel\ProfileController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\TravelBlogController.cs" />
@@ -191,6 +192,10 @@
     <Content Include="Views\Profile\Index.cshtml" />
     <Content Include="Views\Calendar\Index.cshtml" />
     <Content Include="Views\Inbox\Index.cshtml" />
+    <Content Include="Views\Invoice\Incoming.cshtml" />
+    <Content Include="Views\Invoice\Outgoing.cshtml" />
+    <Content Include="Views\Invoice\Canceled.cshtml" />
+    <Content Include="Views\Invoice\ShowInvoice.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

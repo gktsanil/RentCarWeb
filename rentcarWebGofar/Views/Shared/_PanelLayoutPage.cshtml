@@ -10,10 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta charset="utf-8">
-    <script>/* yeah we need this empty stylesheet here. It's cool chrome & chromium fix
-           chrome fix https://code.google.com/p/chromium/issues/detail?id=167083
-                      https://code.google.com/p/chromium/issues/detail?id=332189
-        */</script>
+    <script>
+/* yeah we need this empty stylesheet here. It's cool chrome & chromium fix
+                   chrome fix https://code.google.com/p/chromium/issues/detail?id=167083
+                              https://code.google.com/p/chromium/issues/detail?id=332189
+                */</script>
 </head>
 <body>
     <div class="logo">
@@ -26,6 +27,15 @@
             </li>
             <li class="">
                 <a href="package.html"><i class="fa fa-database"></i> <span class="name">LB Package <sup class="text-warning fw-bold">4.0</sup></span></a>
+            </li>
+            <li class="panel ">
+                <a class="accordion-toggle collapsed" data-toggle="collapse"
+                   data-parent="#side-nav" href="#stats-collapse"><i class="fa fa-area-chart"></i><span class="name">Faturalar</span></a>
+                <ul id="stats-collapse" class="panel-collapse collapse ">
+                    <li class=""><a href="@Url.Action("InComing", "Invoice")">Gelen Faturalar</a></li>
+                    <li class=""><a href="@Url.Action("OutGoing", "Invoice")">Giden Faturalar</a></li>
+                    <li class=""><a href="@Url.Action("Canceled", "Invoice")">iptal Faturalar</a></li>
+                </ul>
             </li>
             <li class="panel ">
                 <a class="accordion-toggle collapsed" data-toggle="collapse"
@@ -181,7 +191,7 @@
                 <small>Provide required notes</small>
             </div>
         </div>
-    </nav>    
+    </nav>
     <div class="wrap">
         <header class="page-header">
             <div class="navbar">
@@ -305,13 +315,13 @@
                     </li>
                     <li class="divider"></li>
                     <!--<li class="hidden-xs">
-        <a href="#" id="settings"
-           title="Settings"
-           data-toggle="popover"
-           data-placement="bottom">
-            <i class="glyphicon glyphicon-cog"></i>
-        </a>
-    </li>-->
+                        <a href="#" id="settings"
+                           title="Settings"
+                           data-toggle="popover"
+                           data-placement="bottom">
+                            <i class="glyphicon glyphicon-cog"></i>
+                        </a>
+                    </li>-->
                     <li class="hidden-xs dropdown">
                         <a href="#" title="Account" id="account"
                            class="dropdown-toggle"
@@ -368,15 +378,13 @@
 
 
         <div class="content container">
-            
-                @RenderBody()
+
+            @RenderBody()
 
             <footer class="content-footer">
                 Light Blue 4.0 Ajax Version - Made by <a href="https://flatlogic.com/" rel="nofollow noopener noreferrer" target="_blank">Flatlogic</a>
             </footer>
         </div>
-
-
 
         <div class="loader-wrap hiding hide">
             <i class="fa fa-circle-o-notch fa-spin"></i>
