@@ -23,5 +23,14 @@ namespace rentcarWebGofar.DBModel.Entity
             this.CustomerCustomerDemos = new List<CustomerCustomerDemo>();
         }
         */
+
+        public virtual List<Message> Messages { get; set; }
+        public virtual List<Ticket> Tickets { get; set; }
+
+        public User()
+        {
+            this.Messages = new List<Message>();
+            this.Tickets = new List<Ticket>();
+        }
     }
 }

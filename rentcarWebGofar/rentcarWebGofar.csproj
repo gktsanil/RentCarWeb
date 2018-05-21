@@ -148,7 +148,9 @@
     <Compile Include="DBModel\Entity\Flight.cs" />
     <Compile Include="DBModel\Entity\Hotel.cs" />
     <Compile Include="DBModel\Entity\Invoice.cs" />
+    <Compile Include="DBModel\Entity\Message.cs" />
     <Compile Include="DBModel\Entity\RentCar.cs" />
+    <Compile Include="DBModel\Entity\Ticket.cs" />
     <Compile Include="DBModel\Entity\Town.cs" />
     <Compile Include="DBModel\Entity\User.cs" />
     <Compile Include="DBModel\Entity\VipTransfer.cs" />

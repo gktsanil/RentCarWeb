@@ -22,5 +22,7 @@ namespace rentcarWebGofar.DBModel.Context
         public DbSet<Invoice> Invoices { get; set; }
         public DbSet<CityTour> CityTours { get; set; }
         public DbSet<RentCar> RentCars { get; set; }
+        public DbSet<Message> Messages { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }
