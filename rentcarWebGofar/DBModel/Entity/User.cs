@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace rentcarWebGofar.DBModel.Entity
 {
     public class User
     {
-        [Key]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserID { get; set; }
         public string UserFirstName { get; set; }
+        public string UserEmail { get; set; }
+        public int UserNumber { get; set; }
         public string UserSurName { get; set; }
         public string UserPassword { get; set; }
         public Boolean UserType { get; set; }
