@@ -9,9 +9,12 @@ namespace rentcarWebGofar.DBModel.Entity
 {
     public class User
     {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UserID { get; set; }
         public string UserFirstName { get; set; }
+        [Key]
+        [Index(IsUnique = true), Required,MaxLength(100), DataType(DataType.EmailAddress)]
         public string UserEmail { get; set; }
         public int UserNumber { get; set; }
         public string UserSurName { get; set; }
